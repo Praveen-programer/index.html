@@ -1,0 +1,530 @@
+:root{ 
+    --text-colour: #1a1c20;
+    --link-colour: #3061ac;
+    --background-colour : #eeeff1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{ 
+    
+    font-family: 'poppins',sans-serif;
+    background-color: var(--background-colour);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+a{
+    color: var(--link-colour);
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0 50px;
+     height: 80px;
+   }
+
+
+nav .left a {
+    color: var(--text-colour);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .right a {
+
+    color: var(--text-colour);
+    margin: 0 10px;
+}
+
+nav .right a {
+    font-size: 22px;
+}
+
+main .headsummary src {
+    width: 50px 50px;
+
+}
+
+
+nav .right a  :hover{
+    color: var(--link-colour);
+    
+    
+}
+
+
+
+nav .right a span{
+    margin-left: 5px;
+}
+
+
+
+.herosection{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 50px;
+    
+}
+
+
+
+.herosection .text h2 {
+
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+.herosection .text .links{
+    margin-top:  20px ;
+}
+
+
+
+
+
+
+.herosection .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--link-colour);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s ;
+}
+
+
+.herosection .text .links   :hover{
+    color: var(--text-colour);
+    border: var(--text-colour);
+}
+
+.herosection .headsummary {
+    justify-content: space-between;
+    flex :2 ;
+    display: flex;
+    justify-content: right;
+}
+/* SECTION2*/
+
+ .skillsection{
+    padding: 0 50px;
+    margin-bottom: 100px ;
+ }            
+ 
+ .skillsection h2 {
+    text-align: center;
+    font-size: 35px; 
+ }
+
+ .skillisection .letters {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.skillsection .wholeicons .icon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.skillsection .letters .wholeicons{
+    padding: 20px 30px ;
+}
+
+
+
+.skillsection .wholeicons .icon {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap : 10px;
+    width : 200px;
+    margin: 10px;
+    padding : 20px 20px;
+    border: 2px solid #181d25;
+    border-radius: 5px;
+}
+
+
+.skillsection .wholeicons .icon span{
+    font-size: 20px;
+}
+
+.skillsection .wholeicons {
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+
+
+
+
+.skillsection .wholeicons .icon img {
+
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 3px;
+}
+
+.skillsection .wholeicons .icon span {
+    font-size: 18px;
+    flex-direction: column-reverse;
+
+}
+
+
+
+/* section 3 */
+.testimony-section {
+    padding: 50px ;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+.testimony-section .group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+ .testimony-section .person-details {
+   text-align: center;
+    flex: 2;
+ }
+ .testimony-section .person-details p2{
+    padding: 0 10px;
+}
+ 
+
+
+ .testimony-section .group .person-details img{
+    aspect-ratio: 1/1 ;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+ }
+.testimony-section .group .testimony-text{
+    padding-bottom: 8%;
+    flex: 8;
+    
+}
+
+
+.testimony-section h2{
+    padding: 0 37px;
+    font-size: 35px;
+    text-align: left;
+    
+}
+
+
+
+/*--contact section*/
+
+.contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+
+}
+
+.contact-section h2{
+    padding: 0 240px;
+    text-align: left;
+    font-size: 30px;
+    
+
+
+}
+
+.contact-section .contactgroup {
+    display: flex;
+    gap: 50px;
+}
+
+
+.contact-section .contactgroup .contacttext{
+    flex: 3;
+
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.contact-section .contactgroup form{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .contact-section .contactgroup form input,
+
+ .contact-section .contactgroup form textarea {
+ width: 500px;
+font-family: 'Poppins', sans-serif;
+border: 1px solid var(--text-colour);
+background-color: transparent;
+padding: 10px;
+margin-bottom: 15px;
+outline: none;
+resize: none;
+}
+
+
+.contact-section .contactgroup form button {
+    width: 500px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fdfdfd;
+    background-color: var(--link-colour);
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+    }
+    
+    .contact-section .contactgroup  button:hover {
+    background-color: rgb(35, 29, 114);
+    }
+
+    .contact-section  form {
+        
+    padding-left: 5%;
+    }
+
+
+.contact-section .contactgroup form label{
+    text-align: left;
+}
+
+.contact-section .contactgroup form{
+    margin-top: calc(-2.3%);
+}
+
+
+
+
+/*responsive section */
+@media(max-width : 850px ){
+    .herosection  {
+      flex-direction: column-reverse;
+    }
+
+    .herosection .text h2 {
+        font-size: 30px;
+    }
+
+    .skillsection .wholeicons {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 30px 175px;
+    }
+    .testimony-section .group {
+        display: flow-root;
+        padding : 10px 0;    
+    }
+    .testimony-section h2{
+        text-align: center;
+    }
+    
+.contact-section .contactgroup{
+    flex-direction: column;
+
+}
+
+.contact-section h2{
+    padding: 0 100px;
+    text-align: left;
+    font-size: 30px;
+}
+.contact-section .contactgroup form input,
+
+ .contact-section .contactgroup form textarea {
+ width: 400px;
+
+}
+.contact-section .contactgroup form button {
+    width: 400px;
+
+}
+
+}
+
+
+@media(max-width :740px) {
+    nav .right a span {
+        display: none;
+    }
+
+    .herosection {
+        padding: 0 20px;
+    }
+    .contact-section h2{
+        padding: 0 250px;
+        text-align: left;
+        font-size: 30px;
+    }
+}
+
+
+
+ @media(max-width :600px) {
+    
+    nav {
+        padding: 0 20px;
+    }
+ 
+
+nav .right a span {
+    display: none;
+}
+
+nav .right a {
+    font-size: 22px;
+}
+
+
+/*slill */
+.skillsection {
+    padding: 10px 20px ;    
+    }
+    .skillsection .wholeicons .icon span {
+       font-size: 16px;
+
+}
+
+
+ }
+
+
+/*addition*/
+nav .right a :last-child{
+    color: var(--text-colour);
+    background-color: transparent;
+    padding: 0;
+
+
+}
+
+.herosection .headsummary img{
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+    
+}
+
+.testimony-section .group img{
+    width: 200pxpx;
+    border-radius: 50%;
+    height: 200px;
+    
+}
+
+
+.herosection {
+    padding: 0 20px;
+}
+
+
+.herosection .text {
+    text-align: left;
+    padding: 0 30px;
+}
+  
+
+ .skilliconsection .wholeicons .icon {
+    display: flexbox;
+    width : 20px; 
+    max-width : 20px;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    text-align: center;
+    padding: 50px 0;
+}
